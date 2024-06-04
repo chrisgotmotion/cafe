@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" contents = "width = device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "sign in.css">
+    <title>Cafe Vibez</title>
+    <center><h1 class "title"><span>SIGN IN</span></h1></center>
+    <hr>
+
+    <meta charset = "UTF-8"/>
+    <meta name = "description" content = "Today in this blog you will learn how to create a responsive Login & Registration Form in HTML CSS & JavaScript. The blog will cover everything from the basics of creating a Login & Registration HTML, to styling it with CSS and adding with JavaScript."/>
+    <meta name = "keywords" content = "Animated Login & Registration Form, Form Design, HTML and CSS, HTML CSS JavaScript, login & signup form, Login Form Design, registration form, Signup Form, HTML, CSS, JavaScipt,"/>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+   
+</head>
+<body>
+    
+    <div class = "container">
+        <div class = "nav-bar">
+    <ul class = "menu">
+                <li><a href = "The Cozy Cafe.html">HOME</a></li>
+                <li><a href = "Menu2.html">MENU</a></li>
+                <li><a href = "Contact Page.html">CONTACT</a></li>
+                <li><a href = "About Page.html">ABOUT</a></li>
+                <li><a href = "Sign in.html">SIGN IN</a></li>
+            </ul>
+        </div>
+        <hr>
+    
+
+    <section class = "wrapper">
+        <div class = "form login">
+        <header>Login</header>
+        <form action = "#">
+            <input type = "text" placeholder = "Email Address" required/>
+            <input type = "password" placeholder = "Password" required/>
+            <a href = "#">Forgot Password</a>
+            <input type = "submit" placeholder = "Login" required/>
+        </form>
+        </div>
+
+        <script>
+            const wrapper = document.querySelector(".wrapper"),
+            signupHeader = document.querySelector(".signup header"),
+            loginHeader = document.querySelector(".login header");
+
+            loginHeader
+            .addEventListener("click", () => {
+                wrapper.classList.add ("active");
+            });
+            signupHeader
+            .addEventListener("click", () => {
+                wrapper.classList.remove("active");
+            });
+        </script>
+        </section>
+        
+        <div class = "signup">
+            <p>Don't have an acount with us? Signup for one:</p>
+        </div>
+
+        <section class = "wrapper">
+            <div class = "Form Signup">
+            <header>Signup</header>
+            <form action = "#">
+                <input type = "text" placeholder="Full name" required/>
+                <input type = "text" placeholder="Email address" required/>
+                <input type = "password" placeholder="Password" required/>
+                <div class = "checkbox">
+
+                    <div class = "check">
+                    <input type = "checkbox" id = "signupCheck"/>
+                    <label for = "signupCheck">
+                        I accept all terms & conditions
+                    </label>
+                    </div>
+                    <div class = "radio">
+                        <input type = "radio" name = "Gender">Male
+                        <input type = "radio">Female
+                    </div>
+                    <input type = "submit" value = "Signup"/>
+            </form>
+            </div>
+
+</body>
+</html>

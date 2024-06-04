@@ -1,0 +1,135 @@
+.Hot-coffee img{
+    position: relative;
+    width: 25%;
+    height: 190px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+/*Added missing closing tags for .details and .details-sub*/
+.details {
+    padding: 20px;
+}
+
+.details-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-sub h5{
+    margin-bottom: 5px;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.details>p{
+    font-size: 15px;
+    line-weight: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.details>button{
+    background: #FFD59A;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    curser: pointer;
+}
+
+body{
+    background-image: url("background2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Hot-coffee{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+span{
+    color: #1d95db;
+}
+
+.menu {
+    color: #1d95db;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.Menus p{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+span{
+    color: #1d95db;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #1d95db;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: #1d95db;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+
+.image {
+    height: 20%;
+    width: 30%;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.pad{
+    padding: 10%;
+    width: ;
+    height: ;
+    background: white;
+}
+
+
+
+

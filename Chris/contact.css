@@ -1,0 +1,50 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: baorder-box;
+}
+body{
+    background-image: url("background2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+span{
+    color: #1d95db;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #1d95db;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: #1d95db;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+.contact p{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.contact h1{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 10px;
+}
